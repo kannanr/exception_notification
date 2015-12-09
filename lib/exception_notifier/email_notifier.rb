@@ -168,7 +168,7 @@ module ExceptionNotifier
         :email_headers => {},
         :mailer_parent => 'ActionMailer::Base',
         :template_path => 'exception_notifier',
-        :deliver_with => :deliver_now
+        :deliver_with => :deliver
       }
     end
 
